@@ -1,0 +1,8 @@
+Django>=4.2,<5
+djangorestframework>=3.14
+django-cors-headers>=3.14
+django-environ>=0.9
+drf-yasg>=1.21
+celery>=5.3
+mysqlclient>=2.1   # MySQL driver (or use PyMySQL; see note below)
+pika>=1.4          # optional if you plan to use pika for raw RabbitMQ
