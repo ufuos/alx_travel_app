@@ -1,0 +1,9 @@
+Django>=4.2,<5
+djangorestframework>=3.14
+django-cors-headers>=4.0
+django-environ>=0.11.0
+drf-yasg>=1.21.6
+celery>=5.3
+mysqlclient>=2.1.1    # requires system libs (libmysqlclient-dev) OR use PyMySQL if you prefer
+# If you prefer a pure-Python MySQL adapter (slower) use:
+# PyMySQL>=1.0.2
