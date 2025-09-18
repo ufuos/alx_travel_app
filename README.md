@@ -43,3 +43,30 @@ alx_travel_app/
 ├── requirements.txt
 ├── .env.example
 ├── README.md
+
+# alx_travel_app_0x00
+
+## 🚀 Overview
+
+This project extends **alx_travel_app** by adding:
+
+- Database models (Listing, Booking, Review)
+- API serializers
+- Seeder management command
+
+## 📂 Structure
+
+- `listings/models.py` → Database models
+- `listings/serializers.py` → API serializers
+- `listings/management/commands/seed.py` → Seeder script
+
+## ⚙️ Setup
+
+```bash
+git clone <your-repo-url>
+cd alx_travel_app_0x00
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py seed
+python manage.py runserver
+```
