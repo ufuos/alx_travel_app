@@ -43,35 +43,29 @@ alx_travel_app/
 ├── requirements.txt
 ├── .env.example
 ├── README.md
-<<<<<<< HEAD:README.md
-"# alx_travel_app_0x00" 
-=======
 
-# alx_travel_app_0x00
+# ALX Travel App 0x00
 
-## 🚀 Overview
+![Django](https://img.shields.io/badge/Django-4.2-green)
+![DRF](https://img.shields.io/badge/DRF-3.14-red)
 
-This project extends **alx_travel_app** by adding:
+## 📌 Project Overview
 
-- Database models (Listing, Booking, Review)
-- API serializers
-- Seeder management command
+This project is a Django REST Framework-based travel app that allows users to browse listings, make bookings, and leave reviews.
 
-## 📂 Structure
+## 🚀 Features
 
-- `listings/models.py` → Database models
-- `listings/serializers.py` → API serializers
-- `listings/management/commands/seed.py` → Seeder script
+- Listings (CRUD)
+- Bookings linked to users
+- Reviews with ratings
+- Database seeder for test data
 
 ## ⚙️ Setup
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/<your-username>/alx_travel_app_0x00.git
 cd alx_travel_app_0x00
 pip install -r requirements.txt
 python manage.py migrate
-python manage.py seed
 python manage.py runserver
 ```
->>>>>>> 00be49a3d467da74c7b6586952da899c91f8c93f:alx_travel_app/README.md
-"# alx_travel_app_0x00" 
