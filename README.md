@@ -74,3 +74,4 @@ python manage.py seed
 python manage.py runserver
 ```
 >>>>>>> 00be49a3d467da74c7b6586952da899c91f8c93f:alx_travel_app/README.md
+"# alx_travel_app_0x00" 
